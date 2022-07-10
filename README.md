@@ -1,6 +1,6 @@
 # Yemek-Tarifleri
 Aspnet Web Appilication kullanılarak yapılmıştır.
-Veritabanı olarak: MsSql kullanılmıştır. Katmanlı mimari, Mvc gibi konulara temel düzey öğrenme amacıyla dikkat edilmemiştir.
+Veritabanı olarak MsSql kullanılmıştır. Katmanlı mimari, Mvc gibi konulara temel düzey öğrenme amacıyla dikkat edilmemiştir.
 
 
 ![image](https://user-images.githubusercontent.com/89140860/178144419-37cc19df-f7ee-4aaa-bedd-b4a078fb74f0.png)
