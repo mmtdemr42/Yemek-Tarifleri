@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="YemekTarifleri.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Mehmet</title>
+    <link href="YemekTarifiStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            font-size: x-large;
+        }
+        .auto-style3 {
+            font-size: large;
+            border: 2px groove #FFFFFF;
+            padding: 10px;
+        }
+        .auto-style4 {
+            height: 26px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="height: 150px; width: 700px; margin-left: 300px; background-color: cadetblue;">
+            <asp:Image ID="Image1" runat="server" Height="149px" ImageUrl="~/Assets/login.png" Width="698px" />
+        </div>
+
+        <div style="margin-left: 300px; margin-top: 30px;">
+            <div style="float: left; height: auto; width: 200px; background-color: cadetblue;">
+                <span class="auto-style2"><strong>Menüler</strong></span><table class="auto-style1">
+                    <tr>
+                        <td class="auto-style4"></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3"><a href="Categories.aspx">Kategoriler</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3"><a href="YemekEkleAdmin.aspx">Yemekler</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3"><a href="YorumlarAdmin.aspx">Yorumlar</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3"><a href="MesajlarAdmin.aspx">Mesajlar</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3"><a href="GununYemegiAdmin.aspx">Günün Yemeği</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3"><a href="TarifAdmin.aspx">Tarif Kontrol</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3"><a href="HakkimizdaAdmin.aspx">Hakkımızda</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div style="width: 450px; float: left; height: auto; background-color: cadetblue; margin-left: 50px">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
