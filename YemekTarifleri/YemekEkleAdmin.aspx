@@ -25,7 +25,7 @@
         }
 
         .auto-style12 {
-            width: 67px;
+            width: 64px;
         }
 
         .auto-style13 {
@@ -46,13 +46,16 @@
         .auto-style18 {
             width: 438px;
         }
+        .auto-style19 {
+            width: 58px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Panel ID="Panel1" runat="server" BackColor="Gray">
         <table class="auto-style1">
             <tr>
-                <td class="auto-style12">
+                <td class="auto-style19">
                     <asp:Button ID="BtnOn" runat="server" Height="40px" Text="Aç" Width="60px" OnClick="BtnOn_Click" />
                 </td>
                 <td class="auto-style11">
